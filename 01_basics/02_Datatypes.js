@@ -76,3 +76,9 @@
 //and all non-primitive datatypes stord in heap
 //If you change value of variable,Stack will give you a copy of that variable aad previous value will remain same 
 //But if you change value of variable which is stored in heap,value will be changed in a variable
+// let fname  ="Bandan"
+// console.log(fname[1]);
+// console.log(fname.length)
+// let inBoolean = Boolean(fname)
+// console.log(inBoolean)
+// console.log(typeof fname)
