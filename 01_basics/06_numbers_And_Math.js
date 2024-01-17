@@ -52,7 +52,8 @@
 // console.log(Math.floor(Math.random()*10) +1);//gives random number in between 1 and 10 without decimal
 
 //But if we want to set our limit, lets make the range in between 10 to 20
-console.log(Math.floor(Math.random()*(15-10+1) +10));
+//console.log(Math.floor(Math.random()*(15-10+1) +10));
+
 
 
 
