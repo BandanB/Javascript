@@ -60,10 +60,10 @@ let third={5:'e',6:'f'}
 
 //object destructuring is tee process of unpacking properties of object or an values of array to the distinct variable
 
-const college = {
-    name:"samriddhi",
-    location:"lokhanthali",
-    contactNumber:"8969678987656"
-}
-const {contactNumber: contact} = college
-console.log(contact);
+// const college = {
+//     name:"samriddhi",
+//     location:"lokhanthali",
+//     contactNumber:"8969678987656"
+// }
+// const {contactNumber: contact} = college
+// console.log(contact);
