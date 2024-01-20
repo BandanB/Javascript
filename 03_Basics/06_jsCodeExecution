@@ -1,0 +1,10 @@
+//Javascript execution context:-Means,How js runs or execute files you've created.
+
+
+-At first global execution phase will be created which refers to 'this' variable(global execution context will be inside 'this' variable )
+-Global execution phase contains two phases called:
+    memory creation phase
+    Execution plase
+        IF any functions occour then another execution context will be performed which includes both memory and execution phase.(Functional execution)
+
+    
