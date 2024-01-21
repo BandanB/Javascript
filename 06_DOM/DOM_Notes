@@ -1,0 +1,40 @@
+//browser>any website>inspect>console
+//console.log(window)
+//window is an object where all of the documents are stored
+//console.log(window.document)//Can see documents 
+//console.log(window.document)//Can see documents 
+//We dont need to write window again and again while accessing document
+//We can see and manupulate any website 
+//console.log(document.links)
+//console.log(document.links[0])
+
+//It shows the content inside id_
+//document.getElementById('id_name')
+//It will change the content of that partucular id
+//document.getElementById('id_name').innerHTML ="Your code"
+
+//Lets play with content stored in varibale named title
+//const title =document.getElementById("id_name").innerHTML = "your_code";
+//title..style.backgroundColor ="green";
+//title..style.padding ="10px";
+
+//It displays all the content stored in variable title along with tags
+//title.innerHTML
+//it shows contents only which are visible  means, content which are not hidden
+//title.innerText
+//it shows all contents even if they are hidden 
+//title.textContent
+
+//queryselector selects the single element and first element among different same kind of element
+//document.querySelecter('h1')
+//document.querySelecter('#id')
+//document.querySelecter('input[type="text"]')
+
+
+//querySelectorAll selects all element of same tag
+// document.querySelectorAll('li')
+// let storeHere = document.querySelectorAll('li')
+// storeHere.style.background ="red"
+
+//Convert any list items to array so that you can perform kind of loop like for each .map etc.
+
