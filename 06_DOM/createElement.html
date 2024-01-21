@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    let div = document.createElement("div");
+    console.log(div);
+    div.id= Math.round(Math.random()*10+1)
+    div.className="forall"
+    div.setAttribute("title","creating own element")
+    div.innerHTML="my own element  "
+    document.body.append(div)
+    let addText = document.createTextNode("Welcome")
+    div.append(addText)
+    document.body.append(div);
+  </script>
+</html>

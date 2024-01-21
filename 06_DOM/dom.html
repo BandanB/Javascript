@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM manupulation</title>
 </head>
-<body>
-    <h1 id="dom">
-        DOM manupulation<span style="display:none;">Testing</span>
-    </h1>
-    <ul>
-    <li>one one one</li>
-    <li>two two two</li>
-    <li>third  third third</li>
-    </ul>
+<body style="background-color: rgb(14, 11, 11); color: aliceblue;">
+  <div class="container">
+    <div class="day">Sunday</div>
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+  </div>
 </body>
+<script>
+    const parent = document.querySelector('.container')
+  //   console.log(parent);
+  //   console.log(parent.children);
+  //   console.log(parent.children[0].innerHTML);
+  
+    for(i=0;i<parent.children.length;i++){
+       console.log(parent.children[i].innerHTML)
+    }
+    parent.children[1].style.color="red"
+
+    console.log(parent.firstElementChild.innerHTML)
+    console.log(parent.lastElementChild.innerHTML)
+
+    let childs = document.querySelector('.day')
+    console.log(childs.parentElement);
+    console.log(childs.nextElementSibling);
+
+    console.log("nodes:",parent.childNodes );
+
+    </script>
 </html>
