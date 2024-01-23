@@ -1,0 +1,17 @@
+body{
+    color:white
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 100px;
+    margin: 10px 20px;
+    border-bottom: 10px;
+    border-radius: 10px;
+}
+.para{
+    text-align: center;
+    background: gray;
+}

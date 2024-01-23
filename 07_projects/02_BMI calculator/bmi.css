@@ -1,0 +1,25 @@
+.container{
+  border: 2px solid rgb(54, 49, 49);
+  background: gray;
+  width: 40%;
+  
+}
+.text{
+    margin: 10px 10px;
+}
+#button{
+    margin: 10px 100px;
+    border-bottom: 2px;
+    border-radius: 10px;
+}
+.guide{
+  border: 2px solid rgb(54, 49, 49);
+  width: 40%;
+  margin:20px 0px;
+  align-self: center;
+  background: gray;
+}
+body{
+  text-align: center;
+  background:black;
+}
