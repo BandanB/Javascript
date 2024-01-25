@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous</title>
+</head>
+<body>
+    <h1 id="heading">Java script</h1>
+    <input type="button" value="Stop" id= "button">
+</body>
+<script>
+    setTimeout(function(){
+        console.log("Hello bandan");
+    },2000)
+    //by reference
+    let showIt = function(){
+        console.log("Hello suman");
+    }
+    setTimeout(showIt,2000)
+
+   function changeValue(){
+    document.getElementById('heading').innerHTML="js value changed"
+   } 
+   const timeout =setTimeout(changeValue,2000)
+//To stop the timeout,let's put event on button
+   document.querySelector('#button').addEventListener('click',function(){
+    clearTimeout(timeout)
+    console.log("stopped");
+   })
+</script>
+</html>

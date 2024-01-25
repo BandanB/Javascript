@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous setInterval</title>
+</head>
+<body>
+    <h1 id="heading">Java script</h1>
+    <input type="button" value="start" id= "button1">
+    <input type="button" value="Stop" id= "button2">
+</body>
+<script>
+    // let date = new Date()
+    // setInterval(function(){
+    //    console.log("Hello" +date.toDateString());
+    // },1000)
+
+
+    //     let myFunction= function(str){
+    //     console.log(Date.now().toLocaleString())
+    // }
+    // let myInterval =setInterval(myFunction,2000,"hi")
+    // clearInterval(myInterval)
+    let myInterval;
+    document.getElementById('button1').addEventListener('click',function(){
+        let myFunction= function(str){
+        console.log(Date.now().toLocaleString())
+    } 
+     myInterval =setInterval(myFunction,2000,"hi")
+    })
+
+    document.getElementById('button2').addEventListener('click',function(){
+        clearInterval(myInterval);
+    })
+
+ 
+    
+
+</script>
+</html>
