@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+</head>
+<body>
+    <h1>Learn api</h1>
+</body>
+<script>
+ let xmlHR =new XMLHttpRequest();
+ xmlHR.open('GET','https://api.github.com/users/hiteshchoudhary')
+ xmlHR.onreadystatechange =function(){
+    console.log(xmlHR.readyState);
+    if(xmlHR.readyState===4){
+        let allData = JSON.parse(this.responseText)
+    console.log(allData.followers);
+ }
+ }
+ xmlHR.send()
+</script>
+</html>
