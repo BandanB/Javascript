@@ -1,0 +1,2 @@
+//a closure gives you access to an outer function's scope from an inner function.
+//Lexical scoping defines a function's accessible scope(Child function can access its parent function but parent function ccannot access its child), while closure enables a function to access variables even after its scope closes.
